@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B2005A23E6F548000E0107 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2005923E6F548000E0107 /* AppDelegate.swift */; };
+		94B2005C23E6F548000E0107 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94B2005B23E6F548000E0107 /* GameScene.sks */; };
+		94B2005E23E6F548000E0107 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 94B2005D23E6F548000E0107 /* Actions.sks */; };
+		94B2006023E6F548000E0107 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2005F23E6F548000E0107 /* GameScene.swift */; };
+		94B2006223E6F548000E0107 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2006123E6F548000E0107 /* GameViewController.swift */; };
+		94B2006523E6F548000E0107 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2006323E6F548000E0107 /* Main.storyboard */; };
+		94B2006723E6F54A000E0107 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B2006623E6F54A000E0107 /* Assets.xcassets */; };
+		94B2006A23E6F54A000E0107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2006823E6F54A000E0107 /* LaunchScreen.storyboard */; };
+		94B2007523E6F54A000E0107 /* TheOceanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2007423E6F54A000E0107 /* TheOceanTests.swift */; };
+		94B2008023E6F54A000E0107 /* TheOceanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2007F23E6F54A000E0107 /* TheOceanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B2007123E6F54A000E0107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B2004E23E6F548000E0107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B2005523E6F548000E0107;
+			remoteInfo = TheOcean;
+		};
+		94B2007C23E6F54A000E0107 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B2004E23E6F548000E0107 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B2005523E6F548000E0107;
+			remoteInfo = TheOcean;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94B2005623E6F548000E0107 /* TheOcean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheOcean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2005923E6F548000E0107 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94B2005B23E6F548000E0107 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		94B2005D23E6F548000E0107 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		94B2005F23E6F548000E0107 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		94B2006123E6F548000E0107 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		94B2006423E6F548000E0107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B2006623E6F54A000E0107 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B2006923E6F54A000E0107 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94B2006B23E6F54A000E0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B2007023E6F54A000E0107 /* TheOceanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOceanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2007423E6F54A000E0107 /* TheOceanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheOceanTests.swift; sourceTree = "<group>"; };
+		94B2007623E6F54A000E0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B2007B23E6F54A000E0107 /* TheOceanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOceanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B2007F23E6F54A000E0107 /* TheOceanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheOceanUITests.swift; sourceTree = "<group>"; };
+		94B2008123E6F54A000E0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B2005323E6F548000E0107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2006D23E6F54A000E0107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2007823E6F54A000E0107 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B2004D23E6F548000E0107 = {
+			isa = PBXGroup;
+			children = (
+				94B2005823E6F548000E0107 /* TheOcean */,
+				94B2007323E6F54A000E0107 /* TheOceanTests */,
+				94B2007E23E6F54A000E0107 /* TheOceanUITests */,
+				94B2005723E6F548000E0107 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B2005723E6F548000E0107 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B2005623E6F548000E0107 /* TheOcean.app */,
+				94B2007023E6F54A000E0107 /* TheOceanTests.xctest */,
+				94B2007B23E6F54A000E0107 /* TheOceanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B2005823E6F548000E0107 /* TheOcean */ = {
+			isa = PBXGroup;
+			children = (
+				94B2005923E6F548000E0107 /* AppDelegate.swift */,
+				94B2005B23E6F548000E0107 /* GameScene.sks */,
+				94B2005D23E6F548000E0107 /* Actions.sks */,
+				94B2005F23E6F548000E0107 /* GameScene.swift */,
+				94B2006123E6F548000E0107 /* GameViewController.swift */,
+				94B2006323E6F548000E0107 /* Main.storyboard */,
+				94B2006623E6F54A000E0107 /* Assets.xcassets */,
+				94B2006823E6F54A000E0107 /* LaunchScreen.storyboard */,
+				94B2006B23E6F54A000E0107 /* Info.plist */,
+			);
+			path = TheOcean;
+			sourceTree = "<group>";
+		};
+		94B2007323E6F54A000E0107 /* TheOceanTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B2007423E6F54A000E0107 /* TheOceanTests.swift */,
+				94B2007623E6F54A000E0107 /* Info.plist */,
+			);
+			path = TheOceanTests;
+			sourceTree = "<group>";
+		};
+		94B2007E23E6F54A000E0107 /* TheOceanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94B2007F23E6F54A000E0107 /* TheOceanUITests.swift */,
+				94B2008123E6F54A000E0107 /* Info.plist */,
+			);
+			path = TheOceanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B2005523E6F548000E0107 /* TheOcean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B2008423E6F54A000E0107 /* Build configuration list for PBXNativeTarget "TheOcean" */;
+			buildPhases = (
+				94B2005223E6F548000E0107 /* Sources */,
+				94B2005323E6F548000E0107 /* Frameworks */,
+				94B2005423E6F548000E0107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheOcean;
+			productName = TheOcean;
+			productReference = 94B2005623E6F548000E0107 /* TheOcean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B2006F23E6F54A000E0107 /* TheOceanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B2008723E6F54A000E0107 /* Build configuration list for PBXNativeTarget "TheOceanTests" */;
+			buildPhases = (
+				94B2006C23E6F54A000E0107 /* Sources */,
+				94B2006D23E6F54A000E0107 /* Frameworks */,
+				94B2006E23E6F54A000E0107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B2007223E6F54A000E0107 /* PBXTargetDependency */,
+			);
+			name = TheOceanTests;
+			productName = TheOceanTests;
+			productReference = 94B2007023E6F54A000E0107 /* TheOceanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B2007A23E6F54A000E0107 /* TheOceanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B2008A23E6F54A000E0107 /* Build configuration list for PBXNativeTarget "TheOceanUITests" */;
+			buildPhases = (
+				94B2007723E6F54A000E0107 /* Sources */,
+				94B2007823E6F54A000E0107 /* Frameworks */,
+				94B2007923E6F54A000E0107 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B2007D23E6F54A000E0107 /* PBXTargetDependency */,
+			);
+			name = TheOceanUITests;
+			productName = TheOceanUITests;
+			productReference = 94B2007B23E6F54A000E0107 /* TheOceanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B2004E23E6F548000E0107 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Gabriel Sousa";
+				TargetAttributes = {
+					94B2005523E6F548000E0107 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					94B2006F23E6F54A000E0107 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 94B2005523E6F548000E0107;
+					};
+					94B2007A23E6F54A000E0107 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 94B2005523E6F548000E0107;
+					};
+				};
+			};
+			buildConfigurationList = 94B2005123E6F548000E0107 /* Build configuration list for PBXProject "TheOcean" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B2004D23E6F548000E0107;
+			productRefGroup = 94B2005723E6F548000E0107 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B2005523E6F548000E0107 /* TheOcean */,
+				94B2006F23E6F54A000E0107 /* TheOceanTests */,
+				94B2007A23E6F54A000E0107 /* TheOceanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B2005423E6F548000E0107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B2006523E6F548000E0107 /* Main.storyboard in Resources */,
+				94B2005C23E6F548000E0107 /* GameScene.sks in Resources */,
+				94B2006723E6F54A000E0107 /* Assets.xcassets in Resources */,
+				94B2006A23E6F54A000E0107 /* LaunchScreen.storyboard in Resources */,
+				94B2005E23E6F548000E0107 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2006E23E6F54A000E0107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2007923E6F54A000E0107 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B2005223E6F548000E0107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B2006023E6F548000E0107 /* GameScene.swift in Sources */,
+				94B2006223E6F548000E0107 /* GameViewController.swift in Sources */,
+				94B2005A23E6F548000E0107 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2006C23E6F54A000E0107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B2007523E6F54A000E0107 /* TheOceanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B2007723E6F54A000E0107 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B2008023E6F54A000E0107 /* TheOceanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B2007223E6F54A000E0107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B2005523E6F548000E0107 /* TheOcean */;
+			targetProxy = 94B2007123E6F54A000E0107 /* PBXContainerItemProxy */;
+		};
+		94B2007D23E6F54A000E0107 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B2005523E6F548000E0107 /* TheOcean */;
+			targetProxy = 94B2007C23E6F54A000E0107 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B2006323E6F548000E0107 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B2006423E6F548000E0107 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94B2006823E6F54A000E0107 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B2006923E6F54A000E0107 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B2008223E6F54A000E0107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B2008323E6F54A000E0107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B2008523E6F54A000E0107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = TheOcean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheOcean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B2008623E6F54A000E0107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = TheOcean/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheOcean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B2008823E6F54A000E0107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = TheOceanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheOceanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheOcean.app/TheOcean";
+			};
+			name = Debug;
+		};
+		94B2008923E6F54A000E0107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = TheOceanTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheOceanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheOcean.app/TheOcean";
+			};
+			name = Release;
+		};
+		94B2008B23E6F54A000E0107 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = TheOceanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheOceanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheOcean;
+			};
+			name = Debug;
+		};
+		94B2008C23E6F54A000E0107 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67ALGZ83W8;
+				INFOPLIST_FILE = TheOceanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.TheOceanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TheOcean;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B2005123E6F548000E0107 /* Build configuration list for PBXProject "TheOcean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2008223E6F54A000E0107 /* Debug */,
+				94B2008323E6F54A000E0107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B2008423E6F54A000E0107 /* Build configuration list for PBXNativeTarget "TheOcean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2008523E6F54A000E0107 /* Debug */,
+				94B2008623E6F54A000E0107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B2008723E6F54A000E0107 /* Build configuration list for PBXNativeTarget "TheOceanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2008823E6F54A000E0107 /* Debug */,
+				94B2008923E6F54A000E0107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B2008A23E6F54A000E0107 /* Build configuration list for PBXNativeTarget "TheOceanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B2008B23E6F54A000E0107 /* Debug */,
+				94B2008C23E6F54A000E0107 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94B2004E23E6F548000E0107 /* Project object */;
+}
