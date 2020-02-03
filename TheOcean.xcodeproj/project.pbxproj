@@ -17,6 +17,8 @@
 		94B2006A23E6F54A000E0107 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B2006823E6F54A000E0107 /* LaunchScreen.storyboard */; };
 		94B2007523E6F54A000E0107 /* TheOceanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2007423E6F54A000E0107 /* TheOceanTests.swift */; };
 		94B2008023E6F54A000E0107 /* TheOceanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2007F23E6F54A000E0107 /* TheOceanUITests.swift */; };
+		94B2008F23E6F598000E0107 /* Turtle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2008E23E6F598000E0107 /* Turtle.swift */; };
+		94B2009123E70B0F000E0107 /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B2009023E70B0F000E0107 /* StaticValues.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		94B2007B23E6F54A000E0107 /* TheOceanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheOceanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B2007F23E6F54A000E0107 /* TheOceanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheOceanUITests.swift; sourceTree = "<group>"; };
 		94B2008123E6F54A000E0107 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B2008E23E6F598000E0107 /* Turtle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turtle.swift; sourceTree = "<group>"; };
+		94B2009023E70B0F000E0107 /* StaticValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticValues.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		94B2004D23E6F548000E0107 = {
 			isa = PBXGroup;
 			children = (
+				94B2008D23E6F581000E0107 /* Models */,
 				94B2005823E6F548000E0107 /* TheOcean */,
 				94B2007323E6F54A000E0107 /* TheOceanTests */,
 				94B2007E23E6F54A000E0107 /* TheOceanUITests */,
@@ -112,6 +117,7 @@
 				94B2006623E6F54A000E0107 /* Assets.xcassets */,
 				94B2006823E6F54A000E0107 /* LaunchScreen.storyboard */,
 				94B2006B23E6F54A000E0107 /* Info.plist */,
+				94B2009023E70B0F000E0107 /* StaticValues.swift */,
 			);
 			path = TheOcean;
 			sourceTree = "<group>";
@@ -132,6 +138,14 @@
 				94B2008123E6F54A000E0107 /* Info.plist */,
 			);
 			path = TheOceanUITests;
+			sourceTree = "<group>";
+		};
+		94B2008D23E6F581000E0107 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94B2008E23E6F598000E0107 /* Turtle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +284,8 @@
 				94B2006023E6F548000E0107 /* GameScene.swift in Sources */,
 				94B2006223E6F548000E0107 /* GameViewController.swift in Sources */,
 				94B2005A23E6F548000E0107 /* AppDelegate.swift in Sources */,
+				94B2008F23E6F598000E0107 /* Turtle.swift in Sources */,
+				94B2009123E70B0F000E0107 /* StaticValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
